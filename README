@@ -1,0 +1,1 @@
+ButtonMaker is a simple iPhone App which should be run on the Simulator Only.  It uses undocumented APIs to create UIGlassButtons, and then saves the images for the button, and its selected equivalent in /tmp.  Handy when you need to make nice buttons.
