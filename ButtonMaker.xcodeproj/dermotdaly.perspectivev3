@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>ActivePerspectiveName</key>
-	<string>Project</string>
+	<string>Debug</string>
 	<key>AllowedModules</key>
 	<array>
 		<dict>
@@ -231,8 +231,6 @@
 			<key>Layout</key>
 			<array>
 				<dict>
-					<key>BecomeActive</key>
-					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -272,12 +270,13 @@
 								<string>080E96DDFE201D6D7F000001</string>
 								<string>29B97317FDCFA39411CA2CEA</string>
 								<string>1C37FAAC04509CD000000102</string>
+								<string>1C77FABC04509CD000000102</string>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>10</integer>
-									<integer>7</integer>
+									<integer>5</integer>
+									<integer>1</integer>
 									<integer>0</integer>
 								</array>
 							</array>
@@ -298,8 +297,6 @@
 							<string>MainColumn</string>
 							<real>185</real>
 						</array>
-						<key>RubberWindowFrame</key>
-						<string>0 117 1920 941 0 0 1920 1058 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXSmartGroupTreeModule</string>
@@ -315,7 +312,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>CFC51E8D1180E60A00657522</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>ButtonMaker-Info.plist</string>
+								<string>ButtonMakerViewController.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -323,18 +320,18 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>CFC51E8E1180E60A00657522</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>ButtonMaker-Info.plist</string>
+										<string>ButtonMakerViewController.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>CF7835C61189EDB600B7996E</string>
+										<string>CF78363C1189F86800B7996E</string>
 										<key>history</key>
 										<array>
 											<string>CF7835C11189EDB600B7996E</string>
 											<string>CF7835C21189EDB600B7996E</string>
 											<string>CF7835C31189EDB600B7996E</string>
-											<string>CF7835C41189EDB600B7996E</string>
-											<string>CF7835C51189EDB600B7996E</string>
+											<string>CF7836001189F58900B7996E</string>
+											<string>CF7836381189F84100B7996E</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -348,18 +345,16 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {1713, 564}}</string>
-								<key>RubberWindowFrame</key>
-								<string>0 117 1920 941 0 0 1920 1058 </string>
+								<string>{{0, 0}, {1713, 556}}</string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>564pt</string>
+							<string>556pt</string>
 						</dict>
 						<dict>
 							<key>Proportion</key>
-							<string>331pt</string>
+							<string>339pt</string>
 							<key>Tabs</key>
 							<array>
 								<dict>
@@ -373,9 +368,7 @@
 									<key>GeometryConfiguration</key>
 									<dict>
 										<key>Frame</key>
-										<string>{{10, 27}, {1713, 304}}</string>
-										<key>RubberWindowFrame</key>
-										<string>0 117 1920 941 0 0 1920 1058 </string>
+										<string>{{10, 27}, {1713, 312}}</string>
 									</dict>
 									<key>Module</key>
 									<string>XCDetailModule</string>
@@ -457,11 +450,11 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>CF7835C71189EDB600B7996E</string>
+				<string>CF7835DA1189F38C00B7996E</string>
 				<string>1CA23ED40692098700951B8B</string>
-				<string>CF7835C81189EDB600B7996E</string>
+				<string>CF7835DB1189F38C00B7996E</string>
 				<string>CFC51E8D1180E60A00657522</string>
-				<string>CF7835C91189EDB600B7996E</string>
+				<string>CF7835DC1189F38C00B7996E</string>
 				<string>1CA23EDF0692099D00951B8B</string>
 				<string>1CA23EE00692099D00951B8B</string>
 				<string>1CA23EE10692099D00951B8B</string>
@@ -513,6 +506,8 @@
 					<dict>
 						<key>Frame</key>
 						<string>{{0, 0}, {1920, 254}}</string>
+						<key>RubberWindowFrame</key>
+						<string>0 117 1920 941 0 0 1920 1058 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXDebugCLIModule</string>
@@ -587,7 +582,11 @@
 							</array>
 							<key>Frame</key>
 							<string>{{0, 318}, {960, 323}}</string>
+							<key>RubberWindowFrame</key>
+							<string>0 117 1920 941 0 0 1920 1058 </string>
 						</dict>
+						<key>RubberWindowFrame</key>
+						<string>0 117 1920 941 0 0 1920 1058 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXDebugSessionModule</string>
@@ -610,13 +609,13 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>CF7835CA1189EDB600B7996E</string>
+				<string>CF7835E11189F39A00B7996E</string>
 				<string>1CCC7628064C1048000F2A68</string>
 				<string>1CCC7629064C1048000F2A68</string>
-				<string>CF7835CB1189EDB600B7996E</string>
-				<string>CF7835CC1189EDB600B7996E</string>
-				<string>CF7835CD1189EDB600B7996E</string>
-				<string>CF7835CE1189EDB600B7996E</string>
+				<string>CF7835E21189F39A00B7996E</string>
+				<string>CF7835E31189F39A00B7996E</string>
+				<string>CF7835E41189F39A00B7996E</string>
+				<string>CF7835E51189F39A00B7996E</string>
 				<string>CFC51E8D1180E60A00657522</string>
 			</array>
 			<key>ToolbarConfigUserDefaultsMinorVersion</key>
@@ -651,6 +650,9 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
+		<string>CF78363D1189F86800B7996E</string>
+		<string>CF7835EC1189F50100B7996E</string>
+		<string>CF7835E71189F39A00B7996E</string>
 		<string>/Users/dermotdaly/Dropbox/iPhoneProjects/ButtonMaker/ButtonMaker.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
