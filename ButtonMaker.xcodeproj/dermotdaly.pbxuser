@@ -1,0 +1,194 @@
+// !$*UTF8*$!
+{
+	1D3623240D0F684500981E51 /* ButtonMakerAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1652, 532}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 495}";
+		};
+	};
+	1D3623250D0F684500981E51 /* ButtonMakerAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1652, 532}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 630}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* ButtonMaker */ = {
+		activeExec = 0;
+		executables = (
+			CFC51E7F1180E60300657522 /* ButtonMaker */,
+		);
+	};
+	28D7ACF60DDB3853001CB0EB /* ButtonMakerViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1652, 572}}";
+			sepNavSelRange = "{502, 0}";
+			sepNavVisRange = "{0, 1234}";
+		};
+	};
+	28D7ACF70DDB3853001CB0EB /* ButtonMakerViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {899, 1768}}";
+			sepNavSelRange = "{2471, 0}";
+			sepNavVisRange = "{0, 1100}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = CFC51E7F1180E60300657522 /* ButtonMaker */;
+		activeSDKPreference = iphonesimulator3.1.3;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* ButtonMaker */;
+		breakpoints = (
+		);
+		codeSenseManager = CFC51E9A1180E60A00657522 /* Code sense */;
+		executables = (
+			CFC51E7F1180E60300657522 /* ButtonMaker */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					1474,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 294251931;
+			PBXWorkspaceStateSaveDate = 294251931;
+		};
+		perUserProjectItems = {
+			CF7835C11189EDB600B7996E /* PBXTextBookmark */ = CF7835C11189EDB600B7996E /* PBXTextBookmark */;
+			CF7835C21189EDB600B7996E /* PBXTextBookmark */ = CF7835C21189EDB600B7996E /* PBXTextBookmark */;
+			CF7835C31189EDB600B7996E /* PBXTextBookmark */ = CF7835C31189EDB600B7996E /* PBXTextBookmark */;
+			CF7835C41189EDB600B7996E /* PBXTextBookmark */ = CF7835C41189EDB600B7996E /* PBXTextBookmark */;
+			CF7835C51189EDB600B7996E /* PlistBookmark */ = CF7835C51189EDB600B7996E /* PlistBookmark */;
+			CF7835C61189EDB600B7996E /* PlistBookmark */ = CF7835C61189EDB600B7996E /* PlistBookmark */;
+		};
+		sourceControlManager = CFC51E991180E60A00657522 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	CF7835C11189EDB600B7996E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* ButtonMakerAppDelegate.h */;
+		name = "ButtonMakerAppDelegate.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 495;
+		vrLoc = 0;
+	};
+	CF7835C21189EDB600B7996E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* ButtonMakerAppDelegate.m */;
+		name = "ButtonMakerAppDelegate.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 630;
+		vrLoc = 0;
+	};
+	CF7835C31189EDB600B7996E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* ButtonMakerViewController.h */;
+		name = "ButtonMakerViewController.h: 27";
+		rLen = 0;
+		rLoc = 502;
+		rType = 0;
+		vrLen = 1234;
+		vrLoc = 0;
+	};
+	CF7835C41189EDB600B7996E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* ButtonMakerViewController.m */;
+		name = "ButtonMakerViewController.m: 97";
+		rLen = 0;
+		rLoc = 2471;
+		rType = 0;
+		vrLen = 955;
+		vrLoc = 145;
+	};
+	CF7835C51189EDB600B7996E /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* ButtonMaker-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/dermotdaly/Dropbox/iPhoneProjects/ButtonMaker/ButtonMaker-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	CF7835C61189EDB600B7996E /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* ButtonMaker-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/dermotdaly/Dropbox/iPhoneProjects/ButtonMaker/ButtonMaker-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	CFC51E7F1180E60300657522 /* ButtonMaker */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = ButtonMaker;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+		};
+	};
+	CFC51E991180E60A00657522 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	CFC51E9A1180E60A00657522 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+}
