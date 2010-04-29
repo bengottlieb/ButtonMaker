@@ -7,7 +7,7 @@
 //
 
 #import "ButtonMakerViewController.h"
-
+#import <QuartzCore/QuartzCore.h>
 @implementation ButtonMakerViewController
 
 @synthesize redSlider;
