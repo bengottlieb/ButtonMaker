@@ -110,6 +110,31 @@
 	heightLabel.text = [NSString stringWithFormat:@"%.0f", roundf(heightSlider.value)];
 	[self updateButton];
 }
+
+- (void) saveImageToFile: (NSString *) filePath {
+	UIGraphicsBeginImageContext(theButton.frame.size);
+	CGContextRef theContext = UIGraphicsGetCurrentContext();
+	[theButton.layer renderInContext:theContext];
+	
+	CGRect					overDrawRects[] = {CGRectMake(10, 0, 1, theButton.frame.size.height), CGRectMake(theButton.frame.size.width - 11, 0, 1, theButton.frame.size.height)};
+	
+	[[UIColor clearColor] set];
+	
+	for (int i = 0; i < 2; i++) {
+		UIRectFill(overDrawRects[i]);
+		CGContextSaveGState(theContext);
+		CGContextClipToRect(theContext, overDrawRects[i]);
+		CGContextTranslateCTM(theContext, -1, 0);
+		[theButton.layer renderInContext:theContext];
+		CGContextRestoreGState(theContext);
+	}
+	
+	UIImage *theImage = UIGraphicsGetImageFromCurrentImageContext();
+	NSData *theData = UIImagePNGRepresentation(theImage);
+	[theData writeToFile: filePath atomically:NO];
+	UIGraphicsEndImageContext();	
+}
+
 -(IBAction) saveTapped:(id)sender {
 	NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
 	NSString *documentsDirectory = [paths objectAtIndex:0];
@@ -117,23 +142,15 @@
 	// the path to write file
 	NSString *buttonFile = [documentsDirectory stringByAppendingPathComponent:@"button.png"];
 	NSString *buttonHighlightFile = [documentsDirectory stringByAppendingPathComponent:@"button-highlight.png"]; 
-	UIGraphicsBeginImageContext(theButton.frame.size);
-	CGContextRef theContext = UIGraphicsGetCurrentContext();
-	[theButton.layer renderInContext:theContext];
 	
-	UIImage *theImage = UIGraphicsGetImageFromCurrentImageContext();
-	NSData *theData = UIImagePNGRepresentation(theImage);
-	[theData writeToFile:buttonFile atomically:NO];
-	UIGraphicsEndImageContext();
+	[self saveImageToFile: buttonFile];
+	
+	
+	
 	[theButton setHighlighted:YES];
-	UIGraphicsBeginImageContext(theButton.frame.size);
-	theContext = UIGraphicsGetCurrentContext();
-	[theButton.layer renderInContext:theContext];
 	
-	theImage = UIGraphicsGetImageFromCurrentImageContext();
-	theData = UIImagePNGRepresentation(theImage);
-	[theData writeToFile:buttonHighlightFile atomically:NO];
-	UIGraphicsEndImageContext();
+	[self saveImageToFile: buttonHighlightFile];
+
 	[theButton setHighlighted:NO];
 	NSString *msg = [NSString stringWithFormat:@"Wrote files to %@", documentsDirectory];
 	UIAlertView *alertView = [[[UIAlertView alloc] initWithTitle:@"Done" message:msg delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil] autorelease];
